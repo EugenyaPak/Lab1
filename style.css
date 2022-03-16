@@ -29,6 +29,9 @@
 .main {
     margin: 70px 150px 10px 150px; /* Добавление верхнего поля, чтобы избежать наложения контента */
 }
+.main_images {
+    height: 15px;
+}
 
 p {
     text-indent: 40px;
