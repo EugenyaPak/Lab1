@@ -1,6 +1,5 @@
 /* Панель навигации */
 .navbar {
-    overflow: hidden;
     background-color: #333;
     position: fixed; /* Установка панели навигации в фиксированное положение */
     top: 0;
@@ -35,6 +34,14 @@
 
 p {
     text-indent: 40px;
+}
+
+h2:target:before {
+    content: "";
+    display: block;
+    height: 2em;
+    margin-top: -2em;
+    visibility: hidden;
 }
 
 h2 {
