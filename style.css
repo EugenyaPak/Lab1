@@ -1,0 +1,32 @@
+/* Панель навигации */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Установка панели навигации в фиксированное положение */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Ссылки внутри навигационной панели */
+.navbar a {
+    margin-left: 20px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Смена фона при наведении курсора */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Основное содержание */
+.main {
+    margin: 70px 150px 10px 150px; /* Добавление верхнего поля, чтобы избежать наложения контента */
+    text-indent: 40px;
+}
