@@ -1,13 +1,16 @@
-/* Панель навигации */
+body {
+    background-image: url(images/seals.jpg);
+    background-size: 100% 100%;
+}
+
 .navbar {
     background-color: #333;
-    position: fixed; /* Установка панели навигации в фиксированное положение */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
 }
 
-/* Ссылки внутри навигационной панели */
 .navbar a {
     margin-left: 20px;
     float: left;
@@ -18,15 +21,13 @@
     text-decoration: none;
 }
 
-/* Смена фона при наведении курсора */
 .navbar a:hover {
     background: #ddd;
     color: black;
 }
 
-/* Основное содержание */
 .main {
-    margin: 70px 150px 10px 150px; /* Добавление верхнего поля, чтобы избежать наложения контента */
+    margin: 200px 190px 130px 190px; 
 }
 .main_images {
     height: 15px;
